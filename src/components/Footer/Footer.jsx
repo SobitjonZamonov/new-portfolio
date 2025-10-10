@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Github, Mail, Linkedin, Instagram, Send } from "lucide-react";
 
 const Footer = () => {
     return (
-        <footer className="relative w-full bg-[#0A061D] text-white py-10 px-6 border-t border-white/20">
+        <footer className="relative w-full bg-[#19181d78] text-white py-10 px-6 border-t border-white/20 backdrop-blur-[18px]">
             {/* Upper Section */}
             <div className="max-w-[1200px] mx-auto flex flex-col sm:flex-row justify-between items-center gap-6">
                 <div className="text-center sm:text-left">
@@ -24,7 +24,7 @@ const Footer = () => {
                         <Mail className="text-white group-hover:text-cyan-400 transition-colors duration-300" />
                     </a>
                     <a
-                        href="https://t.me/yourtelegram"
+                        href="https://t.me/Sobitjon_911"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group p-3 rounded-full border border-white/20 bg-white/5 hover:bg-[#0088cc]/10 transition-all duration-300 hover:scale-110"
@@ -32,7 +32,7 @@ const Footer = () => {
                         <Send className="text-white group-hover:text-[#0088cc] transition-colors duration-300" />
                     </a>
                     <a
-                        href="https://instagram.com/yourusername"
+                        href="https://www.instagram.com/zamonovvv_911?igsh=cHJibDlhNHh2aDh0"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group p-3 rounded-full border border-white/20 bg-white/5 hover:bg-pink-400/10 transition-all duration-300 hover:scale-110"
@@ -40,7 +40,7 @@ const Footer = () => {
                         <Instagram className="text-white group-hover:text-pink-400 transition-colors duration-300" />
                     </a>
                     <a
-                        href="https://linkedin.com/in/yourusername"
+                        href="https://www.linkedin.com/in/sobitjon-zamonov-26a48b342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group p-3 rounded-full border border-white/20 bg-white/5 hover:bg-blue-400/10 transition-all duration-300 hover:scale-110"

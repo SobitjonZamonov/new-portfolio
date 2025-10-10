@@ -46,19 +46,12 @@ const Navbar = () => {
                     { to: "/education", label: "Education" },
                     { to: "/settings", label: "Settings" },
                 ].map((item) => (
-                    <div
-                        key={item.to}
-                        className="flex justify-center items-center w-[90%] h-[45px] border border-[#ccc]/30 rounded-4xl
-                        bg-white/14 backdrop-blur-[10px] shadow-lg z-50 transition"
-                    >
-                        <Link
-                            onClick={() => setMenuOpen(false)}
-                            to={item.to}
-                            className="text-white text-lg"
-                        >
+                    <Link onClick={() => setMenuOpen(false)} to={item.to} className="w-[90%]">
+                        <div className="flex justify-center items-center w-full h-[45px] border border-[#ccc]/30 rounded-4xl
+                      bg-white/14 backdrop-blur-[10px] shadow-lg z-50 transition text-white text-lg">
                             {item.label}
-                        </Link>
-                    </div>
+                        </div>
+                    </Link>
                 ))}
             </div>
         </div>

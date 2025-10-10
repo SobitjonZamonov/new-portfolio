@@ -59,7 +59,7 @@ const ProjectsPage = () => {
                     : "opacity-0 translate-y-[30px]"
                     }`}
             >
-                <div className="bg-white/10 border border-white/20 flex flex-col justify-center items-center rounded-2xl backdrop-blur-[10px] shadow-md shadow-[#898989] p-4 sm:p-10 max-w-[1100px] w-[90%]">
+                <div className="bg-white/10 border border-white/20 flex flex-col md:mb-2 mb-10 justify-center items-center rounded-2xl backdrop-blur-[10px] shadow-md shadow-[#898989] p-4 sm:p-10 max-w-[1100px] w-[90%]">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-16">
                         Projects
                     </h2>
