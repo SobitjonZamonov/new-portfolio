@@ -20,7 +20,6 @@ const Navbar = () => {
                     <Button asChild variant="outline"><Link to="/about">About</Link></Button>
                     <Button asChild variant="outline"><Link to="/projects">Projects</Link></Button>
                     <Button asChild variant="outline"><Link to="/education">Education</Link></Button>
-                    <Button asChild variant="outline"><Link to="/settings">Settings</Link></Button>
                 </ButtonGroup>
             </div>
 
@@ -44,7 +43,6 @@ const Navbar = () => {
                     { to: "/about", label: "About" },
                     { to: "/projects", label: "Projects" },
                     { to: "/education", label: "Education" },
-                    { to: "/settings", label: "Settings" },
                 ].map((item) => (
                     <Link onClick={() => setMenuOpen(false)} to={item.to} className="w-[90%]">
                         <div className="flex justify-center items-center w-full h-[45px] border border-[#ccc]/30 rounded-4xl

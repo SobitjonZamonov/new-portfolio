@@ -85,7 +85,7 @@ const HomePage = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <button className="w-full sm:w-auto px-8 py-3 rounded-xl font-semibold border border-[#00FFFF]/40 text-[#00FFFF] hover:bg-[#00FFFF]/10 hover:scale-105 transition-all duration-300" onClick={() => window.open("./zs.pdf", "_blank")}>
+                            <button className="w-full sm:w-auto px-8 py-3 rounded-xl font-semibold border border-[#00FFFF]/40 text-[#00FFFF] hover:bg-[#00FFFF]/10 hover:scale-105 transition-all duration-300" onClick={() => window.open("./zs new.pdf", "_blank")}>
                                 CV
                             </button>
                         </a>
